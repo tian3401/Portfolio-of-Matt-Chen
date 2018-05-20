@@ -1,0 +1,144 @@
+/*my code starts here*/
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background:#f7f7f7 url("/assets/images/background-2.png")
+}
+
+h1{
+    color: black;
+    font-size: 30px;
+}
+
+nav{
+    width: auto;
+    height: 80px;
+    color: white;
+}
+
+.wrapper{   
+    background-color: #005db9;
+}
+
+#name{
+    font-size: 28px;
+    margin: 0px 225px;
+    height: 100px;
+    width: 250px;
+    line-height: 0px;
+    text-align: center;
+    background-color: darkblue;
+}
+
+ul{
+    margin: 15px 1040px;
+    width: 250px;
+    height: 20px;
+}
+
+ul, li{
+    list-style: none;
+    display: inline-block;
+    line-height: 20px;
+}
+
+ul, li, a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    padding: 2px;
+}
+
+ul, li, a:hover{
+    color: red;
+}
+
+li+li { border-left: 1px solid white; }
+
+a{
+    color:white;
+    font-size: 20px;
+}
+
+.container{
+    background-color:white;
+    margin: 40px auto;
+    padding: 20px 20px;    
+    border: solid 2px;
+    width: 1000px;
+}
+
+p{
+    padding: 20px;}
+
+img{
+    width:200px;
+    height:200px;
+}
+
+#message-area{
+    height: 250px;
+    width: 950px;
+}
+
+form{
+    width: 1000px;
+}
+
+#contact-L1{
+    width: 950px;
+}
+
+#contact-L2{
+    width: 950px;
+}
+
+#portfolio-box1, #portfolio-box2, #portfolio-box3,#portfolio-box4, #portfolio-box5{
+    float: left;
+}
+
+#portfolio-box1{
+    width:200px;
+    height:200px;
+    margin: 20px 10px;}
+
+#portfolio-box2{
+    width:200px;
+    height:200px;
+    margin: 20px 10px;}
+
+#portfolio-box3{
+    width:200px;
+    height:200px;
+    margin: 20px 10px;    
+}
+
+#portfolio-box4{
+    width:200px;
+    height:200px;
+    margin: 20px 10px;    
+}
+
+#portfolio-box5{
+    width:200px;
+    height:200px;
+    margin: 20px 10px;
+}
+
+.portfolio-box{
+    background-color:white;
+    margin: 40px auto;
+    padding: 20px 20px;    
+    border: solid 2px;
+    width: 1000px;
+    height: 800px;
+}
+
+.floating-boxes{
+    width: 650px;
+}
